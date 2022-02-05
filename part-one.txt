@@ -1,0 +1,40 @@
+Part One: Solidify Terminology
+1. What is HTTP?
+    HTTP stands for Hyper Text Transfer Protocol and it is the method
+    through which the user can receive or send data to a server.
+2. What is a URL?
+    URL stands for Uniform Resource Locator and is used as an address 
+    for online content.
+3. What is DNS?
+    DNS stands for Domain Name System and is used to convert the given
+    URL to its associated IP address.
+4. What is a query string?
+    A query string is used to pass a key-value pair to a URL.
+5. List two HTTP Verbs and their use cases.
+    * Post - Submits an entity to the specified resource, often causing 
+        a change in state or side effects on the server.
+    * Delete - Deletes a specified resource.
+6. What is an HTTP request?
+    An HTTP request is a request from a client to a server which follows
+    the HTTP protocol.
+7. What is am HTTP response?
+    An HTTP response is a response from a server to a client which
+    follows the HTTP protocol.
+8. What is an HTTP header? Give a couple examples of request or the
+    response headers you have seen.
+    Headers provide additional information about the request or the 
+    response. Here are some examples:
+    * Request headers: Host, User-Agent, Accept, Cookie, Cache-Control
+    * Response headers: Content-Type, Last-Modified, Set-Cookie, 
+        Cache-Control
+9. What happens when you type a URL in browser?
+    A. Your browser “resolves” the name into an IP address using DNS
+    B. Your browser makes a request to that IP address, including 
+        headers (info about browser, any previous cookies, and other 
+        things)
+    C. The server sends a response (typically, HTML, with a status 
+        code (200 if it was sucessful)
+    D. The browser makes a DOM from that HTML, and finds any other 
+        resources needed (images, CSS, JavaScript, etc)
+    E. The browser makes separate HTTP requests for those resources 
+        and receives response from the server for each
